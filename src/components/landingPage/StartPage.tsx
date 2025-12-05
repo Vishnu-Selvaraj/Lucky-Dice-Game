@@ -16,7 +16,7 @@ const StartPage:React.FC<StartPageProps> = ({ BtnClick }) => {
           />
         </div>
         <div className="flex flex-col">
-          <h2 className="text-8xl font-medium max-xl:text-7xl">DICE GAME</h2>
+          <h2 className="text-8xl font-medium max-xl:text-7xl max-sm:text-5xl">DICE GAME</h2>
           <div className="flex justify-end max-lg:justify-center my-4">
             <button
               className="bg-black text-sm font-medium rounded-sm text-white w-48 px-7 py-1.5 hover:cursor-pointer border hover:border-black hover:bg-white hover:text-black transition-colors duration-400"
