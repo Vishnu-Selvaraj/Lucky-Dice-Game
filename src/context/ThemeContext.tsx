@@ -16,7 +16,7 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
 
   const toggleTheme = () => {
     let newTheme = theme === "light" ? "dark" : "light";
-    setTheme((prevTheme) => prevTheme === "light" ? "dark" : "light");
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
     console.log(theme);
     if (newTheme === "dark") {
       document.documentElement.classList.add("dark");
